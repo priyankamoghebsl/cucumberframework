@@ -93,6 +93,7 @@ public class BaseStepDefinitions extends PageObjectManager {
 		Date d = new Date();
 		DateFormat ft = new SimpleDateFormat("ddMMyyyyhhmmss");
 		String fileName = ft.format(d);
+		System.out.println("welcome");
 		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/src/test/java/com/vtiger/reports/ExtentReport"+fileName+".html");
     	// Create an object of Extent Reports
 		extent = new ExtentReports();  
