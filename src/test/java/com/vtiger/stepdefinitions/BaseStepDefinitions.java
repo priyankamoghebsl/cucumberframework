@@ -58,8 +58,8 @@ public class BaseStepDefinitions extends PageObjectManager {
 		
 	public void LaunchApp()
 	{
-		
-		
+
+		System.out.println("Changes done in LaunchApp");
 		//System.exit(0);
 		if(prop.getProperty("Browser").equalsIgnoreCase("chrome"))
 		{
