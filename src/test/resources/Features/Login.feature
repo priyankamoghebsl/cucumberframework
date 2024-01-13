@@ -1,10 +1,10 @@
-@laxman
+@laxman @Regression
 Feature: Validate all login fuctionality
 
 Background:
 Given user should on login page
 
-@madan
+@madan @smoke
 Scenario: TC01
 When user enters the credentials
 And click on login button

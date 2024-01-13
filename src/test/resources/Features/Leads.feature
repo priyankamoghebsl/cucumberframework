@@ -1,10 +1,11 @@
+@Regression
 Feature: lead functionality
 
 Background:
 Given user should on login page
 
 
-@Sweta
+@Sweta @sanity
 Scenario Outline: <TCName>
 When user enters the credentials
 And click on login button
